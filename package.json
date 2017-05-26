@@ -1,0 +1,20 @@
+{
+  "name": "renew-ichiba-ui-assets",
+  "version": "1.0.0",
+  "description": "This is for creating ui components for renewal projects. ",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss icw-3293-dev.css -o icw-3293-style.css  -w",
+    "stylelint": "stylelint --config .stylelintrc _sp/src/css/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://shinya.takahashi@git.rakuten-it.com/scm/~shinya.takahashi/renewal_product_pc.git"
+  },
+  "author": "CWD Devteam",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-cli": "^3.1.1",
+    "postcss-sprites": "^4.2.1"
+  }
+}
